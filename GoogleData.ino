@@ -150,7 +150,7 @@ void loop()
     AppendValuesChoreo.addInput("SpreadsheetID", SPREADSHEET_ID);
 
     // convert the time and sensor values to a comma separated string
-    String myName="MaryL";
+    String myName="Darren O'rourke";
     String rowData = "[[\"" + String(now) + "\", \"" + String(sensorValue) + "\", \"" + String(myName) + "\"]]";
 
     // add the RowData input item
